@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="27.934" tests="8" skipped="0" failures="1" errors="0">
+<testcase classname="Test the movie app" name="We Test the Login Page UI" time="4.002">
+<system-out><![CDATA[
+When Test whether the Website logo image is displayed.......................passed
+And Test whether the Heading text is Login present..........................passed
+And Test whether the Username label text is USERNAME is display.............passed
+But Test whether the Password label text is PASSWORD is display.............passed
+Then Test the Login button is present.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the movie app" name="We Test the Login Page Functionalities - #1.1" time="3.019">
+<system-out><![CDATA[
+And user enters username as ""..............................................passed
+And user enters password as ""..............................................passed
+Then user click login button................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the movie app" name="We Test the Login Page Functionalities - #1.2" time="3.16">
+<system-out><![CDATA[
+And user enters username as ""..............................................passed
+And user enters password as "rahul@2021"....................................passed
+Then user click login button................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the movie app" name="We Test the Login Page Functionalities - #1.3" time="3.098">
+<system-out><![CDATA[
+And user enters username as "rahul".........................................passed
+And user enters password as ""..............................................passed
+Then user click login button................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the movie app" name="We Test the Login Page Functionalities - #1.4" time="3.046">
+<system-out><![CDATA[
+And user enters username as "rahul".........................................passed
+And user enters password as "rahul".........................................passed
+Then user click login button................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the movie app" name="We Test the Login Page Functionalities - #1.5" time="3.364">
+<system-out><![CDATA[
+And user enters username as "rahul".........................................passed
+And user enters password as "rahul@2021"....................................passed
+Then user click login button................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the movie app" name="Test the Home Page" time="4.294">
+<system-out><![CDATA[
+And user enters username as "rahul".........................................passed
+And user enters password as "rahul@2021"....................................passed
+Then user click login button................................................passed
+When Test the heading texts of each section.................................passed
+And Test whether the play button is displayed or not........................passed
+And Test whether the Movies are displayed, in the corresponding movies sections.passed
+Then Test the Contact Us Section............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the movie app" name="Test the Header Section UI" time="3.264">
+<failure/>
+<system-out><![CDATA[
+And Test whether the Website logo is displayed..............................undefined
+Then Test the Navbar elements...............................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
